@@ -1,0 +1,127 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('https://wallpapercave.com/wp/wp8246854.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px); /* Adjust blur amount as needed */
+    
+  }
+   .content {
+    
+    padding: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(50px); /* Adjust blur amount as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  } 
+  
+  
+  .credit-card, .feature-page {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(249, 236, 236, 0.1);
+   
+    padding: 20px;
+    width: 500px;
+  }
+  
+  .credit-card .card-image {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 120px;
+    background: url('card-image.png') no-repeat center;
+    background-size: cover;
+    transform: perspective(800px) rotateY(20deg);
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #e8dddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .card-actions {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .card-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .feature-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .feature-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature-buttons button {
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .feature-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .container3 {
+    text-align: left;
+  }
+  .logo{
+    color: #000000;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px
+}

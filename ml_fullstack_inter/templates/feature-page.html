@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feature Selection</title>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="feature-page">
+    <h1>Enter the Features</h1>
+    <form action="{{ url_for('process_feature') }}" method="post"></form>
+      <div class="container3">
+      <div class="input-group">
+        <label for="fea_1">Feature_1</label>
+        <input type="text" id="fea_1" name="fea_1">
+      </div>
+      <div class="input-group">
+        <label for="fea_2">Feature_2</label>
+        <input type="text" id="fea_2" name="fea_2">
+      </div>
+      <div class="input-group">
+        <label for="fea_3">Feature_3</label>
+        <input type="text" id="fea_3" name="fea_3">
+      </div>
+      <div class="input-group">
+        <label for="fea_4">Feature_4</label>
+        <input type="text" id="fea_4" name="fea_4">
+      </div>
+      <div class="input-group">
+        <label for="fea_5">Feature_5</label>
+        <input type="text" id="fea_5" name="fea_5">
+      </div>
+      <div class="input-group">
+        <label for="fea_6">Feature_6</label>
+        <input type="text" id="fea_6" name="fea_6">
+      </div>
+      <div class="input-group">
+        <label for="fea_7">Feature_7</label>
+        <input type="text" id="fea_7" name="fea_7">
+      </div>
+      <div class="input-group">
+        <label for="fea_8">Feature_8</label>
+        <input type="text" id="fea_8" name="fea_8">
+      </div>
+      <div class="input-group">
+        <label for="fea_9">Feature_9</label>
+        <input type="text" id="fea_9" name="fea_9">
+      </div>
+      <div class="input-group">
+        <label for="fea_10">Feature_10</label>
+        <input type="text" id="fea_10" name="fea_10">
+      </div>
+      <div class="input-group">
+        <label for="fea_11">Feature_11</label>
+        <input type="text" id="fea_11" name="fea_11">
+      </div>
+      <div class="card-actions">
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+    </form>
+  </div>
+</body>
+</html>

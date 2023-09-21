@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creative Credit Card Form</title>
+<!-- <link rel="stylesheet" href="E:\ml_fullstack_inter\static\style.css"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  
+
+  <div class="credit-card">
+    
+
+    <div class="card-image"></div>
+    <h2 class="logo">CREDIT CARD DETAILS</h2></header><br><br>
+    <form action="feature-page.html" method="post">
+      <div class="container">
+      <div class="input-group">
+        <label for="customer-id">Customer ID</label>
+        <input type="text" id="customer-id" name="customer-id">
+      </div>
+
+      <div class="input-group">
+        <label for="ovd_t1">OVD_t1</label>
+        <input type="text" id="ovd_t1" name="ovd_t1">
+      </div>
+      <div class="input-group">
+        <label for="ovd_t2">OVD_t2</label>
+        <input type="text" id="ovd_t2" name="ovd_t2">
+      </div>
+      <div class="input-group">
+        <label for="ovd_t3">OVD_t3</label>
+        <input type="text" id="ovd_t3" name="ovd_t3">
+      </div>
+      <div class="input-group">
+        <label for="ovd_sum">OVD_sum</label>
+        <input type="text" id="ovd_sum" name="ovd_sum">
+      </div>
+      <div class="input-group">
+        <label for="Pay_normal">Pay_normal</label>
+        <input type="text" id="Pay_normal" name="Pay_normal">
+      </div> </div>
+      <div class="container2">
+      <div class="input-group">
+        <label for="prod_code">Prod_Code</label>
+        <input type="text" id="prod_code" name="prod_code">
+      </div>
+      <div class="input-group">
+        <label for="prod_limit">Prod_Limit</label>
+        <input type="text" id="prod_limit" name="prod_limit">
+      </div>
+      <div class="input-group">
+        <label for="new_balance">New_Balance</label>
+        <input type="text" id="new_balance" name="new_balance">
+      </div>
+      <div class="input-group">
+        <label for="highest_balance">Highest_Balance</label>
+        <input type="text" id="highest_balance" name="highest_balance">
+      </div>
+      <div class="card-actions">
+        <button type="submit">Next</button>
+      </div>
+    </div>
+    </form>
+  </div>
+</body>
+</html>
